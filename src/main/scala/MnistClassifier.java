@@ -40,8 +40,8 @@ import org.slf4j.LoggerFactory;
 public class MnistClassifier {
 
     private static final Logger log = LoggerFactory.getLogger(MnistClassifier.class);
-    //private static final String basePath = "/Users/weijian/Downloads/sem2/cloud computing/project";
-    private static final String basePath = "hdfs://data";
+    private static final String basePath = "/Users/weijian/Downloads/sem2/cloud computing/project";
+    //private static final String basePath = "hdfs://data";
     public void run() throws Exception {
         int height = 28;
         int width = 28;
